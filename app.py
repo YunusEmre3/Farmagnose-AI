@@ -12,7 +12,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from ultralyticsplus import YOLO
 
-# --- DİL ÇEVİRİ SÖZLÜĞÜ (EKSİK KEY EKLENDİ) ---
+# --- DİL ÇEVİRİ SÖZLÜĞÜ ---
 translations = {
     'tr': {
         'page_title': "AgriVision AI | Bitki Hastalık Analizi",
@@ -33,7 +33,7 @@ translations = {
         'analysis_info': "Yapay zeka destekli anlık analiz için bir yaprak resmi yükleyin veya fotoğrafını çekin.",
         'camera_button': "📸 Fotoğraf Çek",
         'upload_button': "📄 Resim Yükle",
-        'uploader_prompt': "Bir veya daha fazla resim seçin...", # EKSİK KEY EKLENDİ
+        'uploader_prompt': "Bir veya daha fazla resim seçin...", 
         'camera_prompt': "Fotoğraf çekin",
         'analyze_button': " Resmi Analiz Et",
         'expander_text': "🔬 Analiz Sonuçları: ",
@@ -143,7 +143,7 @@ translations = {
         'analysis_info': "Upload a leaf image or use your camera to get an instant AI-powered analysis.",
         'camera_button': "📸 Take a Photo",
         'upload_button': "📄 Upload Image(s)",
-        'uploader_prompt': "Choose one or more images...", # EKSİK KEY EKLENDİ
+        'uploader_prompt': "Choose one or more images...", 
         'camera_prompt': "Take a photo",
         'analyze_button': " Analyze Image(s)",
         'expander_text': "🔬 Analysis Results for: ",
@@ -505,7 +505,7 @@ def render_analysis_page(yolo_model, segmentation_model, lang):
                                             st.success(f"✅ {just_name} {translations[lang]['added_to_cart']}")
                                         st.session_state.pop('scroll_to', None)
 
-                                    # Düzenli butonlar (form yok)
+                                    # Düzenli butonlar
                                     col_btn1, col_btn2 = st.columns(2)
 
                                     with col_btn1:
@@ -534,7 +534,7 @@ def render_history_page(lang):
     st.header(translations[lang]['history_header'])
     st.info(translations[lang]['history_info'])
     
-    # Mock up geçmiş analizler - daha detaylı
+    # Mock up geçmiş analizler
     history_items = [
         {
             "image": "https://i.imgur.com/S6QZv2Z.jpeg", 
