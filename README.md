@@ -18,7 +18,7 @@ Projemiz, cep telefonuyla çekilen yaprak fotoğraflarını analiz ederek, önce
 
 1.  **Depoyu Klonlayın:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[KULLANICI_ADINIZ]/AgriVision-AI.git
+    git clone https://github.com/YunusEmre3/AgriVision-AI.git
     cd AgriVision-AI
     ```
 2.  **Gerekli Kütüphaneleri Yükleyin:**
@@ -26,7 +26,7 @@ Projemiz, cep telefonuyla çekilen yaprak fotoğraflarını analiz ederek, önce
     pip install -r requirements.txt
     ```
 3.  **Model Dosyalarını İndirin:**
-    - `models/best_model.pth` segmentasyon modelini bu klasöre yerleştirin. (Not: Büyük model dosyaları genellikle GitHub'a yüklenmez, bu yüzden buraya bir indirme linki ekleyebilirsiniz.)
+    - `models/best_model.pth` segmentasyon modelini bu klasöre yerleştirin.
 
 4.  **Uygulamayı Başlatın:**
     ```bash
