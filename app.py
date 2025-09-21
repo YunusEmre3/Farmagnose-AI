@@ -15,7 +15,7 @@ from ultralyticsplus import YOLO
 # --- DİL ÇEVİRİ SÖZLÜĞÜ ---
 translations = {
     'tr': {
-        'page_title': "AgriVision AI | Bitki Hastalık Analizi",
+        'page_title': "Farmagnose AI | Bitki Hastalık Analizi",
         'lang_select': "Dil",
         'nav_analysis': "🌿 Yaprak Analizi",
         'nav_history': "🗂️ Geçmiş Analizlerim",
@@ -24,8 +24,8 @@ translations = {
         'nav_chemicals': "🛒 Malzeme Siparişi",
         'nav_cart': "🛒 Sepetim",
         'navigation_label': "Navigasyon",
-        'app_title': "AgriVision AI",
-        'footer_text': "© 2025 AgriVision AI. Tüm hakları saklıdır.",
+        'app_title': "Farmagnose AI",
+        'footer_text': "© 2025 Farmagnose AI. Tüm hakları saklıdır.",
         # Analiz Sayfası
         'analysis_header': "🌿 İki Aşamalı Yaprak Hastalık Analizi",
         'toggle_label': "Sadece Domatesleri Tespit Et",
@@ -125,7 +125,7 @@ translations = {
         ]
     },
     'en': {
-        'page_title': "AgriVision AI | Plant Disease Analysis",
+        'page_title': "Farmagnose AI | Plant Disease Analysis",
         'lang_select': "Language",
         'nav_analysis': "🌿 Leaf Analysis",
         'nav_history': "🗂️ My Past Analyses",
@@ -134,8 +134,8 @@ translations = {
         'nav_chemicals': "🛒 Order Supplies",
         'nav_cart': "🛒 My Cart",
         'navigation_label': "Navigation",
-        'app_title': "AgriVision AI",
-        'footer_text': "© 2025 AgriVision AI. All rights reserved.",
+        'app_title': "Farmagnose AI",
+        'footer_text': "© 2025 Farmagnose AI. All rights reserved.",
         # Analysis Page
         'analysis_header': "🌿 Two-Stage Leaf Disease Analysis",
         'toggle_label': "Detect Tomatoes Only",
@@ -237,7 +237,7 @@ translations = {
 }
 
 # --- Temel Konfigürasyon ---
-st.set_page_config(page_title="AgriVision AI", page_icon="🌿", layout="wide")
+st.set_page_config(page_title="Farmagnose AI", page_icon="🌿", layout="wide")
 
 SEGMENTATION_MODEL_PATH = "models/best_model.pth"
 LOGO_PATH = "https://i.imgur.com/v4WHd9s.png"
