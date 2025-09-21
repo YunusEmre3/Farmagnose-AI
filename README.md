@@ -1,4 +1,4 @@
-# AgriVision AI - Yapay Zeka Destekli Bitki Hastalık Teşhis Platformu
+# Farmagnose-AI - Yapay Zeka Destekli Bitki Hastalık Teşhis Platformu 
 
 Bu proje, TİM-İnovaTİM İnovasyon Yarışması için geliştirilmiş, çiftçilere ve ziraat mühendislerine yönelik iki aşamalı bir yapay zeka destekli bitki hastalık teşhis platformudur.
 
@@ -18,8 +18,8 @@ Projemiz, cep telefonuyla çekilen yaprak fotoğraflarını analiz ederek, önce
 
 1.  **Depoyu Klonlayın:**
     ```bash
-    git clone https://github.com/YunusEmre3/AgriVision-AI.git
-    cd AgriVision-AI
+    git clone https://github.com/YunusEmre3/Farmagnose-AI.git
+    cd Farmagnose-AI
     ```
 2.  **Gerekli Kütüphaneleri Yükleyin:**
     ```bash
